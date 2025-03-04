@@ -36,7 +36,7 @@ and you'll get this output (here it's prettified):
 
 The default behavior of `json_metadata.lua` is to convert them to plain text.
 
-You may want to keep the formatting: you can do it setting the `format` variable:
+You may want to keep their formatting. You can do it setting the `format` variable:
 
 ```sh
 pandoc -f json -t ../src/json_metadata.lua -V format=html test.json
@@ -101,5 +101,5 @@ results in:
 As you can see, `average` (`MetaString`) and `revision` (`MetaInlines`) fields are numbers
 in the resulting JSON.
 
-The number detection is activated by any value of the `number` variable,
+The number detection is activated by any value of the `numbers` variable,
 except for `false` and `0`.
