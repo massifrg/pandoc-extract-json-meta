@@ -1,0 +1,221 @@
+{
+  "pandoc-api-version": [
+    1,
+    23,
+    1
+  ],
+  "meta": {
+    "meta1": {
+      "t": "MetaString",
+      "c": "A string value"
+    },
+    "meta2": {
+      "t": "MetaInlines",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Inlines"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "an"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Emph",
+          "c": [
+            {
+              "t": "Str",
+              "c": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    "title": {
+      "t": "MetaBlocks",
+      "c": [
+        {
+          "t": "Para",
+          "c": [
+            {
+              "t": "Str",
+              "c": "A"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "document"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "with"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "metadata"
+            }
+          ]
+        },
+        {
+          "t": "Para",
+          "c": [
+            {
+              "t": "Str",
+              "c": "("
+            },
+            {
+              "t": "Emph",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "for"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "tests"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "only"
+                }
+              ]
+            },
+            {
+              "t": "Str",
+              "c": ")"
+            }
+          ]
+        }
+      ]
+    },
+    "author": {
+      "t": "MetaList",
+      "c": [
+        {
+          "t": "MetaInlines",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Author"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "One"
+            }
+          ]
+        },
+        {
+          "t": "MetaInlines",
+          "c": [
+            {
+              "t": "Str",
+              "c": "Author"
+            },
+            {
+              "t": "Space"
+            },
+            {
+              "t": "Str",
+              "c": "Two"
+            }
+          ]
+        }
+      ]
+    },
+    "revision": {
+      "t": "MetaInlines",
+      "c": [
+        {
+          "t": "Str",
+          "c": "3"
+        }
+      ]
+    },
+    "average": {
+      "t": "MetaString",
+      "c": "4.2"
+    },
+    "flags": {
+      "t": "MetaMap",
+      "c": {
+        "checked": {
+          "t": "MetaBool",
+          "c": true
+        },
+        "published": {
+          "t": "MetaBool",
+          "c": false
+        }
+      }
+    }
+  },
+  "blocks": [
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "A"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "test"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "document"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "with"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "metadata."
+        }
+      ]
+    }
+  ]
+}

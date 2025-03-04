@@ -1,0 +1,69 @@
+Pandoc
+  Meta
+    { unMeta =
+        fromList
+          [ ( "author"
+            , MetaList
+                [ MetaInlines [ Str "Author" , Space , Str "One" ]
+                , MetaInlines [ Str "Author" , Space , Str "Two" ]
+                ]
+            )
+          , ( "average" , MetaString "4.2" )
+          , ( "flags"
+            , MetaMap
+                (fromList
+                   [ ( "checked" , MetaBool True )
+                   , ( "published" , MetaBool False )
+                   ])
+            )
+          , ( "meta1" , MetaString "A string value" )
+          , ( "meta2"
+            , MetaInlines
+                [ Str "Inlines"
+                , Space
+                , Str "with"
+                , Space
+                , Str "an"
+                , Space
+                , Emph [ Str "italic" ]
+                ]
+            )
+          , ( "revision" , MetaInlines [ Str "3" ] )
+          , ( "title"
+            , MetaBlocks
+                [ Para
+                    [ Str "A"
+                    , Space
+                    , Str "document"
+                    , Space
+                    , Str "with"
+                    , Space
+                    , Str "metadata"
+                    ]
+                , Para
+                    [ Str "("
+                    , Emph
+                        [ Str "for"
+                        , Space
+                        , Str "tests"
+                        , Space
+                        , Str "only"
+                        ]
+                    , Str ")"
+                    ]
+                ]
+            )
+          ]
+    }
+  [ Para
+      [ Str "A"
+      , Space
+      , Str "test"
+      , Space
+      , Str "document"
+      , Space
+      , Str "with"
+      , Space
+      , Str "metadata."
+      ]
+  ]
