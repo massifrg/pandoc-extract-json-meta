@@ -2,6 +2,14 @@
 
 A custom writer for Pandoc to extract documents' metadata as JSON.
 
+@jgm showed a simpler way to achieve the same goal
+[here](https://github.com/jgm/pandoc/discussions/10658#discussioncomment-12391273).
+
+Unless you absolutely need the automatic conversion of numbers,
+just follow that simpler way.
+
+## Testing this project
+
 To test it, change dir to `./test` and type:
 
 ```sh
